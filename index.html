@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examples</title>
+  <link rel=stylesheet href="css/4e.css" type="text/css">
+</head>
+
+<body>
+  <div class="card monster">
+    <div class="heading">
+      <span class="name">Kobold Tunneler</span>
+      <span class="role">Level 1 Minion Skirmisher</span>
+    </div>
+    <div class="heading subheading">
+      <span class="type">Small natural humanoid (reptile)</span>
+      <span class="exp">XP 25</span>
+    </div>
+    <div class="section combat-stats">
+      <div>
+        <span class="label">HP</span> 1; a missed attack never damages a minion
+        <span class="hidden">
+          <span class="label">Bloodied</span> N
+          <span class="label">Surges</span> N;
+          <span class="label">Value</span> N;</span>
+        <br />
+        <span class="label">AC</span> 15;
+        <span class="label">Fort</span> 12;
+        <span class="label">Ref</span> 14;
+        <span class="label">Will</span> 12;
+        <br />
+        <span class="label">Speed</span> 6
+      </div>
+      <div class="right">
+        <span class="label">Initiative</span> +5
+        <br />
+        <span class="label">Perception</span> +1
+        <br />
+        <span>Darkvision</span>
+      </div>
+    </div>
+
+    <div class="traits">
+      <div class="section-head">Traits</div>
+      <div class="power">
+        <div class="name">Quick Blade</div>
+        <div class="description">If the kobold shifts on its turn, the next melee attack it makes on its turn deals 2
+          extra damage per square shifted.</div>
+      </div>
+    </div>
+    <div class="actions standard">
+      <div class="section-head">Standard Actions</div>
+      <div class="power">
+        <div class="name">
+          <i class="icon">M</i> Short Sword (weapon) &#x2666; At-Will
+        </div>
+        <div class="description">
+          <div><i>Attack:</i> Melee 1 (one creature); +6 vs. AC</div>
+          <div><i>Hit:</i> 1d6 + 3 damage.</div>
+        </div>
+      </div>
+      <div class="power">
+        <div class="name">
+          <i class="icon">r</i> Javelin (weapon) &#x2666; At-Will
+        </div>
+        <div class="description">
+          <div><i>Attack:</i> Ranged 10/20 (one creature); +6 vs. AC</div>
+          <div><i>Hit:</i> 4 damage.</div>
+        </div>
+      </div>
+    </div>
+    <div class="actions move">
+      <div class="section-head">Move Actions</div>
+      <div class="power">
+        <div class="name">
+          Fleet Feet &#x2666; At-Will
+        </div>
+        <div class="description">
+          <div><i>Effect:</i> The kobold shifts 3 squares.</div>
+        </div>
+      </div>
+    </div>
+    <div class="actions minor">
+      <div class="section-head">Minor Actions</div>
+      <div class="power">
+        <div class="name">
+          Shifty &#x2666; At-Will
+        </div>
+        <div class="description">
+          <div><i>Effect:</i> The kobold shifts 1 square.</div>
+        </div>
+      </div>
+    </div>
+    <div class="actions triggered">
+      <div class="section-head">Triggered Actions</div>
+      <div class="power">
+        <div class="name">
+          Narrow Escape &#x2666; At-Will
+        </div>
+        <div class="description">
+          <div><i>Trigger:</i> A close or an area attack hits or misses the kobold.</div>
+          <div><i>Effect (Immediate Interrupt):</i> The kobold rolls a saving throw.
+            If it succeeds, it shifts 3 squares.</div>
+        </div>
+      </div>
+    </div>
+    <div class="section skills">
+      <span class="label">Skills</span>
+      Athletics +4, Stealth +8, Thievery +8
+    </div>
+    <div class="section ability-scores">
+      <div class="ability-score">
+        <span class="label">Str</span> 12 (+1)
+      </div>
+      <div class="ability-score">
+        <span class="label">Con</span> 12 (+1)
+      </div>
+      <div class="ability-score">
+        <span class="label">Dex</span> 12 (+1)
+      </div>
+      <div class="ability-score">
+        <span class="label">Int</span> 12 (+1)
+      </div>
+      <div class="ability-score">
+        <span class="label">Wis</span> 12 (+1)
+      </div>
+      <div class="ability-score">
+        <span class="label">Cha</span> 12 (+1)
+      </div>
+    </div>
+    <div class="section miscellaneous">
+      <div class="alignment">
+        <span class="label">Alignment</span> evil
+      </div>
+      <div class="languages">
+        <span class="label">Languages</span> Common, Draconic
+      </div>
+    </div>
+    <div class="section miscellaneous">
+      <span class="label">Equipment</span> leather armor, 3 javelins
+    </div>
+  </div>
+
+  <p></p>
+
+  <div class="card power at-will alternating-colours">
+    <div class="heading">
+      <span class="name">Sacred Flame</span>
+      <span class="level">Cleric Attack 1</span>
+    </div>
+    <div class="flavor-text">
+      Sacred light shines from above, searing a single enemy with its radiance while at the same time aiding an ally
+      with its benificent power.
+    </div>
+    <div class="section basics">
+      <div class="type-and-keywords">
+        <span class="type">At-Will</span>
+        &#x2666;
+        <span class="keywords">Divine, Implement, Radiant</span>
+      </div>
+      <div class="action-and-range">
+        <span class="action">Standard Action</span>
+        <span class="range"><strong>Ranged</strong> 5</span>
+      </div>
+      <div class="target">
+        <span class="label">Target:</span>
+        One creature
+      </div>
+      <div class="attack">
+        <span class="label">Attack:</span>
+        Wisdom vs Reflex
+      </div>
+    </div>
+    <div class="section hit">
+      <span class="label">Hit:</span>
+      1d6 + Wisdom modifier radiant damage, and one ally
+      you can see chooses to either gain temporary hit points
+      equal to your Charisma modifier + one-half your level or
+      to make a saving throw
+    </div>
+    <div class="section miss">
+      <span class="label">Miss:</span>
+      Content
+    </div>
+    <div class="section effect">
+      <span class="label">Effect:</span>
+      Content
+    </div>
+    <div class="section sustain">
+      <span class="label">Sustain Minor:</span>
+      Content
+    </div>
+    <div class="section">
+      <span class=label>Special:</span>
+      Content
+    </div>
+    <div class="indent">
+      <div class="section">
+        <span class=label>Target:</span>
+        Content
+      </div>
+      <div class="section">
+        <span class=label>Attack:</span>
+        Ability vs Defense
+      </div>
+      <div class="section">
+        <span class=label>Hit:</span>
+        Content
+      </div>
+      <div class="section">
+        <span class=label>Miss:</span>
+        Content
+      </div>
+      <div class="section">
+        <span class=label>Effect:</span>
+        Content
+      </div>
+      <div class="section">
+        <span class=label>Sustain Minor:</span>
+        Content
+      </div>
+      <div class="section">
+        <span class=label>Special:</span>
+        Content
+      </div>
+    </div>
+  </div>
+
+  <p></p>
+
+  <div class="card power encounter alternating-colours">
+    <div class="heading">
+      <span class="name">Divine Glow</span>
+      <span class="class">Cleric Attack 1</span>
+    </div>
+    <div class="flavor-text">
+      Murmuring a prayer to your deity, you invoke a blast of white
+      radiance from your holy symbol. Foes burn in its stern light, but
+      your allies are heartened and guided by it.
+    </div>
+    <div class="section basics">
+      <div class="type-and-keywords">
+        <span class="type">Encounter</span>
+        &#x2666;
+        <span class="keywords">Divine, Implement, Radiant</span>
+      </div>
+      <div class="action-and-range">
+        <span class="action">Standard Action</span>
+        <span class="range"><strong>Close</strong> blast 5</span>
+      </div>
+      <div class="target">
+        <span class="label">Target:</span>
+        Each enemy in blast
+      </div>
+      <div class="attack">
+        <span class="label">Attack:</span>
+        Wisdom vs Reflex
+      </div>
+    </div>
+    <div class="section hit">
+      <span class="label">Hit:</span>
+      1d8 + Wisdom modifier radiant damage.
+    </div>
+    <div class="section effect">
+      <span class="label">Effect:</span>
+      Allies in the blast gain a +2 power bonus to attack rolls
+      until the end of your next turn.
+    </div>
+  </div>
+
+  <p></p>
+
+  <div class="card power daily alternating-colours">
+    <div class="heading">
+      <span class="name">Beacon of Hope</span>
+      <span class="class">Cleric Attack 1</span>
+    </div>
+    <div class="flavor-text">
+      A burst of divine energy harms your foes and heals your allies.
+      The radiant energy lingers around your holy symbol and improves
+      your healing powers for the rest of the battle.
+    </div>
+    <div class="section basics">
+      <div class="type-and-keywords">
+        <span class="type">Daily</span>
+        &#x2666;
+        <span class="keywords">Divine, Implement, Radiant</span>
+      </div>
+      <div class="action-and-range">
+        <span class="action">Standard Action</span>
+        <span class="range"><strong>Close</strong> burst 3</span>
+      </div>
+      <div class="target">
+        <span class="label">Target:</span>
+        Each enemy in burst
+      </div>
+      <div class="attack">
+        <span class="label">Attack:</span>
+        Wisdom vs Will
+      </div>
+    </div>
+    <div class="section hit">
+      <span class="label">Hit:</span>
+      The target is weakened until the end of its next turn.
+    </div>
+    <div class="section effect">
+      <span class="label">Effect:</span>
+      You and all your allies in the burst regain 5 hit points,
+      and your healing powers restore +5 hit points until the end
+      of the encounter.
+    </div>
+  </div>
+</body>
+
+</html>

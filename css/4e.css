@@ -1,0 +1,155 @@
+/*
+  dark green: 48542e
+  light green: c7c7b0
+  background: e7e5d3
+  at-will: 5b8f62
+  encounter: 811c32
+  daily: 414342
+  power gradient beginning: dad9c7
+  power gradient end: ffffff
+*/
+
+@font-face {
+  font-family: "D&D4eIcons";
+  src: url("../fonts/D&D 4e Icons v3.ttf");
+}
+
+.hidden {
+  display: none;
+}
+
+i.icon {
+  font-family: "D&D4eIcons";
+  font-style: normal;
+  display: inline-block;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.card {
+  border-radius: 0.5rem;
+  padding: 0;
+  margin: 0.5rem;
+  font-family: helvetica;
+  width: 500px;
+  margin: auto;
+}
+
+.card .heading {
+  color: #ffffff;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card .heading.subheading {
+  color: #ffffff;
+  padding: 0 0.5rem 0.5rem;
+  display: flex;
+  font-size: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: normal;
+}
+
+.card .flavor-text {
+  background-image: url(../images/powerback.png);
+  background-repeat: repeat-y;
+  font-style: italic;
+  padding: 0.5rem;
+}
+
+.card.monster .heading {
+  background-color: #515e35;
+}
+
+.card.monster .combat-stats,
+.card.monster .miscellaneous {
+  background-color: #e8e7d8;
+}
+
+.card.monster .skills,
+.card.monster .ability-scores {
+  background-color: #c7c7b0;
+}
+
+.card.monster .ability-scores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-flow: column;
+}
+
+.card.monster .power .name {
+  padding: 0 0.5rem;
+  font-weight: bold;
+  background-color: #c7c7b0;
+}
+
+.card.monster .power .description {
+  padding: 0 0.5rem;
+  background-color: #e8e7d8;
+  text-indent: 0.5rem hanging;
+}
+
+.card.power.at-will .heading {
+  background-color: #5b8f62;
+}
+
+.card.power.encounter .heading {
+  background-color: #811c32;
+}
+
+.card.power.daily .heading {
+  background-color: #414342;
+}
+
+.section {
+  padding: 0.1rem 0.5rem;
+}
+
+.section-head {
+  padding: 0.2rem 0.5rem 0.1rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: white;
+  background-color: #737b59;
+}
+
+.alternating-colours > .section:nth-child(even) {
+  background-image: url(../images/powerback.png);
+}
+
+.type-and-keywords .type {
+  font-weight: bold;
+}
+
+.type-and-keywords .keywords {
+  font-weight: bold;
+}
+
+.combat-stats,
+.action-and-range {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.combat-stats .right {
+  text-align: right;
+}
+
+.action-and-range .action {
+  font-weight: bold;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.indent {
+  padding: 0 0.5rem;
+}
